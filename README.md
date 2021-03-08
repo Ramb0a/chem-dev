@@ -15,6 +15,8 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 
 ## Computational Chemistry
 
+![Qc Gif](qc.gif) 
+
 > "Among the main tasks of computational chemistry are to determine the
 structure and energy of molecules and of the transition states involved in
 chemical
