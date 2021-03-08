@@ -1,10 +1,12 @@
 # chem-devi Docker Instructions
 
-start container -p 8888:8888
+Start container with -p 8888:8888 flag if Jupyter Notebook is intended. 
 
 source activate my-rdkit-env
 
 conda install -c conda-forge --file requirements.txt
+
+To run notebook from within container: 
 
 jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 
@@ -12,6 +14,11 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 ## Tools 
 
 * RDKIT
+* [DeepChem](https://github.com/deepchem/deepchem) == 2.3.0
+
+### ToDo
+
+- [] [OpenFermion](https://github.com/quantumlib/OpenFermion)  
 
 ## Computational Chemistry
 
