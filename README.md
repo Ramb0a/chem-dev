@@ -103,14 +103,14 @@ end program hello
 ```fortran
 
 program hoopGenerator
+  
   implicit none
   character (len = 20) :: city, avatar
   print *, "What is the best basketball city in the world -> Brooklyn"
   read *, city
   print *, "What is the best basketball team name? -> Nets" 
   read *, avatar 
-  print *, "You are right the best basketball team is the: ", trim(city), " ",
-trim(avatar)
+  print *, "best basketball team is the: ", trim(city), " ", trim(avatar)
 
 end program hoopGenerator
 
