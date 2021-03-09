@@ -1,4 +1,17 @@
-# chem-devi Docker Instructions
+# What is this?
+
+A Machine Learning Computational Chemistry Development Environment
+
+What is Included?
+
+* [RDKit](https://www.rdkit.org/)
+* Conda
+* [Fortran](https://fortran-lang.org/) 
+* Vim
+* Conquerer of Code
+
+
+# chem-dev Docker Instructions
 
 Start container with -p 8888:8888 flag if Jupyter Notebook is intended. 
 
@@ -62,3 +75,24 @@ corresponding to
 the minimum-energy geometry – or more precisely, to the various possible
 potential
 energy surface minima"
+
+
+## Fortran 
+
+Fortran is the language of Quantum Chemistry and Solid state physics.
+Understanding Fortran will take you far in in the QC game.
+
+Hello Word: hello.f90
+
+```fortran
+program hello
+  implicit none
+  character*20 :: world
+  print *, "Hello?: "
+  read *, world
+  print *, "Hello, ", world 
+
+end program hello 
+```
+
+
