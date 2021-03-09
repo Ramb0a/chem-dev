@@ -80,13 +80,18 @@ energy surface minima"
 ## Fortran 
 
 Fortran is the language of Quantum Chemistry and Solid state physics.
+The reason being projects like [LAPACK](http://www.netlib.org/lapack/). Fortran
+is not going anywhere, anytime soon, as the inclusion in the
+[Magma](http://icl.cs.utk.edu/projectsfiles/magma/doxygen/) project can attest. 
 Understanding Fortran will take you far in in the QC game.
 
 Hello Word: hello.f90
 
 ```fortran
+
 program hello
-  implicit none
+
+  implicit none ! explicit declaration of all variables 
   character*20 :: world
   print *, "Hello?: "
   read *, world
@@ -95,4 +100,20 @@ program hello
 end program hello 
 ```
 
+```fortran
+
+program hoopGenerator
+  implicit none
+  character (len = 20) :: city, avatar
+  print *, "What is the best basketball city in the world -> Brooklyn"
+  read *, city
+  print *, "What is the best basketball team name? -> Nets" 
+  read *, avatar 
+  print *, "You are right the best basketball team is the: ", trim(city), " ",
+trim(avatar)
+
+end program hoopGenerator
+
+``` 
+  
 
