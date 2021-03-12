@@ -77,7 +77,10 @@ energy surface minima"
 ## Interesting Projects
 
 [MiniFold](https://github.com/hypnopump/MiniFold)
+
 [AlphaFold CASP-13](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
+
+[FermiNet](https://github.com/deepmind/ferminet) - From DeepMind 
 
 
 ## Fortran 
