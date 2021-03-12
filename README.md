@@ -29,9 +29,7 @@ jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 * RDKIT
 * [DeepChem](https://github.com/deepchem/deepchem) == 2.3.0
 
-### ToDo
 
-- [] [OpenFermion](https://github.com/quantumlib/OpenFermion)  
 
 ## Computational Chemistry
 
@@ -75,6 +73,11 @@ corresponding to
 the minimum-energy geometry – or more precisely, to the various possible
 potential
 energy surface minima"
+
+## Interesting Projects
+
+[MiniFold](https://github.com/hypnopump/MiniFold)
+[AlphaFold CASP-13](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
 
 
 ## Fortran 
